@@ -1,0 +1,17 @@
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityInfrastructure.deps.json
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityInfrastructure.runtimeconfig.json
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityInfrastructure.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityInfrastructure.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityDomain.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\bin\Debug\net6.0\FiapSmartCityDomain.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.csproj.AssemblyReference.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.AssemblyInfoInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.AssemblyInfo.cs
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmar.C6E47102.Up2Date
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\refint\FiapSmartCityInfrastructure.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\FiapSmartCityInfrastructure.genruntimeconfig.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityInfrastructure\obj\Debug\net6.0\ref\FiapSmartCityInfrastructure.dll

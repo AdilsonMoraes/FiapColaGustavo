@@ -1,0 +1,17 @@
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityServices.deps.json
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityServices.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityServices.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityDomain.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityInfrastructure.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityDomain.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\bin\Debug\net6.0\FiapSmartCityInfrastructure.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.csproj.AssemblyReference.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.AssemblyInfoInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.AssemblyInfo.cs
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.csproj.CoreCompileInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmar.A3CF6982.Up2Date
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\refint\FiapSmartCityServices.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\FiapSmartCityServices.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityServices\obj\Debug\net6.0\ref\FiapSmartCityServices.dll

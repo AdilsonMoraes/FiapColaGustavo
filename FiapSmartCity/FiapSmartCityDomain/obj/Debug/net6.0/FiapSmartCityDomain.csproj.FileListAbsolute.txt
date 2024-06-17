@@ -1,0 +1,12 @@
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\bin\Debug\net6.0\FiapSmartCityDomain.deps.json
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\bin\Debug\net6.0\FiapSmartCityDomain.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\bin\Debug\net6.0\FiapSmartCityDomain.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.csproj.AssemblyReference.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.AssemblyInfoInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.AssemblyInfo.cs
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.csproj.CoreCompileInputs.cache
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\refint\FiapSmartCityDomain.dll
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\FiapSmartCityDomain.pdb
+D:\Projects\Pessoais\Gustavo-Fiap\FiapSmartCity\FiapSmartCityDomain\obj\Debug\net6.0\ref\FiapSmartCityDomain.dll

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CollectionPostman", "CollectionPostman", "{69893938-FF7A-49A7-9C87-ED12302EE5A8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json = ..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityAPI", "FiapSmartCityAPI\FiapSmartCityAPI.csproj", "{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityDomain", "FiapSmartCityDomain\FiapSmartCityDomain.csproj", "{49020F69-E72B-46F4-8C65-439F493E494D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityServices", "FiapSmartCityServices\FiapSmartCityServices.csproj", "{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityIoC", "FiapSmartCityIoC\FiapSmartCityIoC.csproj", "{9D03D41A-258A-4E31-916F-F38CBC22061A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityInfrastructure", "FiapSmartCityInfrastructure\FiapSmartCityInfrastructure.csproj", "{D91E866E-544A-4662-AD76-E746EAE2E6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityTest", "FiapSmartCityTest\FiapSmartCityTest.csproj", "{458E2109-9972-4C79-B6AA-F21F5D60252D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49020F69-E72B-46F4-8C65-439F493E494D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49020F69-E72B-46F4-8C65-439F493E494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49020F69-E72B-46F4-8C65-439F493E494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49020F69-E72B-46F4-8C65-439F493E494D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D03D41A-258A-4E31-916F-F38CBC22061A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D03D41A-258A-4E31-916F-F38CBC22061A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D03D41A-258A-4E31-916F-F38CBC22061A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D03D41A-258A-4E31-916F-F38CBC22061A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91E866E-544A-4662-AD76-E746EAE2E6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91E866E-544A-4662-AD76-E746EAE2E6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91E866E-544A-4662-AD76-E746EAE2E6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91E866E-544A-4662-AD76-E746EAE2E6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {966957E1-B8BD-4B7B-A223-00405C48BFCA}
+	EndGlobalSection
+EndGlobal

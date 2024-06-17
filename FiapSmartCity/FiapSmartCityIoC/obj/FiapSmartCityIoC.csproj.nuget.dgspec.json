@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityIoC\\FiapSmartCityIoC.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj",
+        "projectName": "FiapSmartCityDomain",
+        "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj",
+        "packagesPath": "C:\\Users\\AdilsonGalp\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdilsonGalp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.npf.com.pt/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\FiapSmartCityInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\FiapSmartCityInfrastructure.csproj",
+        "projectName": "FiapSmartCityInfrastructure",
+        "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\FiapSmartCityInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\AdilsonGalp\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdilsonGalp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.npf.com.pt/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj": {
+                "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityIoC\\FiapSmartCityIoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityIoC\\FiapSmartCityIoC.csproj",
+        "projectName": "FiapSmartCityIoC",
+        "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityIoC\\FiapSmartCityIoC.csproj",
+        "packagesPath": "C:\\Users\\AdilsonGalp\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityIoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdilsonGalp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.npf.com.pt/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\FiapSmartCityServices.csproj": {
+                "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\FiapSmartCityServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\FiapSmartCityServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\FiapSmartCityServices.csproj",
+        "projectName": "FiapSmartCityServices",
+        "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\FiapSmartCityServices.csproj",
+        "packagesPath": "C:\\Users\\AdilsonGalp\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdilsonGalp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.npf.com.pt/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj": {
+                "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityDomain\\FiapSmartCityDomain.csproj"
+              },
+              "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\FiapSmartCityInfrastructure.csproj": {
+                "projectPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapSmartCity\\FiapSmartCityInfrastructure\\FiapSmartCityInfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
