@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FiapSmartCityIoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a42bae7df2f04848dcb8b83afd014bc1fe00ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("FiapSmartCityIoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FiapSmartCityIoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,17 +8,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CollectionPostman", "Collec
 		..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json = ..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityAPI", "FiapSmartCityAPI\FiapSmartCityAPI.csproj", "{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityAPI", "FiapSmartCityAPI\FiapSmartCityAPI.csproj", "{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityDomain", "FiapSmartCityDomain\FiapSmartCityDomain.csproj", "{49020F69-E72B-46F4-8C65-439F493E494D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityDomain", "FiapSmartCityDomain\FiapSmartCityDomain.csproj", "{49020F69-E72B-46F4-8C65-439F493E494D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityServices", "FiapSmartCityServices\FiapSmartCityServices.csproj", "{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityServices", "FiapSmartCityServices\FiapSmartCityServices.csproj", "{6FBF7C5E-840A-4C1F-B2C8-1EAA9B53F74C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityIoC", "FiapSmartCityIoC\FiapSmartCityIoC.csproj", "{9D03D41A-258A-4E31-916F-F38CBC22061A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityIoC", "FiapSmartCityIoC\FiapSmartCityIoC.csproj", "{9D03D41A-258A-4E31-916F-F38CBC22061A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityInfrastructure", "FiapSmartCityInfrastructure\FiapSmartCityInfrastructure.csproj", "{D91E866E-544A-4662-AD76-E746EAE2E6E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityInfrastructure", "FiapSmartCityInfrastructure\FiapSmartCityInfrastructure.csproj", "{D91E866E-544A-4662-AD76-E746EAE2E6E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapSmartCityTest", "FiapSmartCityTest\FiapSmartCityTest.csproj", "{458E2109-9972-4C79-B6AA-F21F5D60252D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityTest", "FiapSmartCityTest\FiapSmartCityTest.csproj", "{458E2109-9972-4C79-B6AA-F21F5D60252D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4A09DFED-F016-484A-A2DC-C87D00D2F67A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

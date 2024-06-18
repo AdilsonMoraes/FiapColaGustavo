@@ -1,0 +1,35 @@
+version: '3.4'
+ 
+networks:
+    myAppNetwork:       
+ 
+services:
+    # SqlServerDb:
+    #     container_name: SqlServerContainer
+    #     image: mcr.microsoft.com/mssql/server:2017-latest
+    #     ports:
+    #         - 8002:1433
+    #     environment:
+    #         - ACCEPT_EULA=Y
+    #         - MSSQL_SA_PASSWORD=myStong_Password123#
+    #     networks:
+    #         - myAppNetwork
+
+    WebApi:
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ASPNETCORE_URLS=https://+:443;http://+:80
+            - SqlConnectionString=Server=localhost,8002; Database=smartcities; User Id=sa; Password=myStong_Password123#; Trust Server Certificate=True;
+        ports:
+            - "80"
+            - "443"
+        volumes:
+            - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+            - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+        build:
+          context: .
+          dockerfile: FiapSmartCityAPI/Dockerfile
+        depends_on:
+            - SqlServerDb
+        networks:
+            - myAppNetwork
