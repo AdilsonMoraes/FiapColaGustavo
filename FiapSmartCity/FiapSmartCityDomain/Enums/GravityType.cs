@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FiapSmartCityServices.EnvironmentalMonitoring
+namespace FiapSmartCityDomain.Enums
 {
-    public interface IEnvironmentalMonitoringService
+    public enum GravityType
     {
+        Urgent,
+        Emergency,
+        Light
     }
 }

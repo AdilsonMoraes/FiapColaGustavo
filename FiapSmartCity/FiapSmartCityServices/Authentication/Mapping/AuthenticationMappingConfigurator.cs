@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using FiapSmartCityDomain.Authentication;
 using FiapSmartCityDomain.Authentication.ViewModel;
+using FiapSmartCityDomain.Entities;
+using FiapSmartCityDomain.TrafficManagement.ViewModel;
 using Microsoft.AspNetCore.Identity;
 
 namespace FiapSmartCityServices.Authentication.Mapping
@@ -27,6 +29,16 @@ namespace FiapSmartCityServices.Authentication.Mapping
 
             cfg.CreateMap<IdentityRole, RoleViewModel>()
                 .ReverseMap();
+
+
+            cfg.CreateMap<AccidentsEntity, AccidentsViewModel>()
+                .ReverseMap()
+                .ForMember(dest => dest.AddressComplement, opt => opt.MapFrom(src => src.Address.Complement))
+                .ForMember(dest => dest.AddressDescription, opt => opt.MapFrom(src => src.Address.Description))
+                .ForMember(dest => dest.ZipCode, opt => opt.MapFrom(src => src.Address.ZipCode))
+                .ForMember(dest => dest.CarModel, opt => opt.MapFrom(src => src.Cars.Model))
+                .ForMember(dest => dest.CarBrand, opt => opt.MapFrom(src => src.Cars.Brand))
+                .ForMember(dest => dest.CarYear, opt => opt.MapFrom(src => src.Cars.Year));
         }
 
 

@@ -20,8 +20,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityInfrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityTest", "FiapSmartCityTest\FiapSmartCityTest.csproj", "{458E2109-9972-4C79-B6AA-F21F5D60252D}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4A09DFED-F016-484A-A2DC-C87D00D2F67A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,10 +50,6 @@ Global
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{458E2109-9972-4C79-B6AA-F21F5D60252D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A09DFED-F016-484A-A2DC-C87D00D2F67A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

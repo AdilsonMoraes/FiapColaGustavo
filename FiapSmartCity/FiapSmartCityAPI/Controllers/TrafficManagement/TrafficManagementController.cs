@@ -1,5 +1,6 @@
 ﻿using FiapSmartCityAPI.Attributes;
-using FiapSmartCityServices.PublicSecurity;
+using FiapSmartCityDomain.Authentication.ViewModel;
+using FiapSmartCityDomain.TrafficManagement.ViewModel;
 using FiapSmartCityServices.TrafficManagement;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -20,37 +21,14 @@ namespace FiapSmartCityAPI.Controllers.TrafficManagement
             _trafficManagementService = trafficManagementService;
         }
 
-
-        // GET: api/<TrafficManagementController>
+        [ExtendedAuthorize(new string[] { "Administrador", "TrafficManagement" })]
         [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        public async Task<ICollection<AccidentsViewModel>> GetAccidents()
+             => await _trafficManagementService.GetAccidents();
 
-        // GET api/<TrafficManagementController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<TrafficManagementController>
+        [ExtendedAuthorize(new string[] { "Administrador" })]
         [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<TrafficManagementController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<TrafficManagementController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        public async Task<AccidentsViewModel> CreateAccidents([FromBody] AccidentsViewModel userViewModel)
+    => await _trafficManagementService.CreateAccidents(userViewModel);
     }
 }

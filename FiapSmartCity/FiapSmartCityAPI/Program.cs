@@ -195,7 +195,34 @@ using (var scope = app.Services.CreateScope())
         });
         context.SaveChanges();
 
-        //Incluir na mão a primeira role para o primeiro user [AspNetUserRoles]
+
+        var rolesUser = context.Roles.FirstOrDefault(u => u.Name == "Administrador");
+        var userRole = context.Users.FirstOrDefault(u => u.UserName == "Administrador");
+        var existsRole = context.UserRoles.FirstOrDefault(u => u.RoleId == rolesUser.Id);
+        if (existsRole == null)
+        {
+            context.UserRoles.Add(new IdentityUserRole<string>()
+            {
+                RoleId = rolesUser.Id,
+                UserId = userRole.Id
+            });
+
+        }
+
+        rolesUser = context.Roles.FirstOrDefault(u => u.Name == "TrafficManagement");
+        userRole = context.Users.FirstOrDefault(u => u.UserName == "TrafficManagement");
+        existsRole = context.UserRoles.FirstOrDefault(u => u.RoleId == rolesUser.Id);
+        if (existsRole == null)
+        {
+            context.UserRoles.Add(new IdentityUserRole<string>()
+            {
+                RoleId = rolesUser.Id,
+                UserId = userRole.Id
+            });
+        }
+        context.SaveChanges();
+
+
     }
 }
 app.Run();

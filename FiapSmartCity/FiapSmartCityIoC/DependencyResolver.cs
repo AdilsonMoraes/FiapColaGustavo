@@ -5,11 +5,8 @@ using FiapSmartCityInfrastructure.PublicSecurity;
 using FiapSmartCityInfrastructure.TrafficManagement;
 using FiapSmartCityInfrastructure.WasteManagement;
 using FiapSmartCityServices.Authentication;
-using FiapSmartCityServices.EnvironmentalMonitoring;
 using FiapSmartCityServices.Log;
-using FiapSmartCityServices.PublicSecurity;
 using FiapSmartCityServices.TrafficManagement;
-using FiapSmartCityServices.WasteManagement;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -19,10 +16,10 @@ namespace FiapSmartCityIoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
-            services.AddTransient<IWasteManagementService, WasteManagementService>();
+            //services.AddTransient<IWasteManagementService, WasteManagementService>();
             services.AddTransient<ITrafficManagementService, TrafficManagementService>();
-            services.AddTransient<IEnvironmentalMonitoringService, EnvironmentalMonitoringService>();
-            services.AddTransient<IPublicSecurityService, PublicSecurityService>();
+            //services.AddTransient<IEnvironmentalMonitoringService, EnvironmentalMonitoringService>();
+            //services.AddTransient<IPublicSecurityService, PublicSecurityService>();
             services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddSingleton<ILogService, LogService>();
         }

@@ -18,7 +18,7 @@ namespace FiapSmartCityInfrastructure
         }
 
 
-        //public DbSet<EntityName> EntityName { get; set; }
+        public DbSet<AccidentsEntity> Accidents { get; set; }
 
 
 
