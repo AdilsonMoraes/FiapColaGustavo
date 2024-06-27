@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapColaGustavo\\FiapSmartCity\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A948039-ABFB-469D-98CA-538ACEA9F292}|Solution Items{4A948039-ABFB-469D-98CA-538ACEA9F292}|D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapColaGustavo\\FiapSmartCity\\CollectionPostman\\Fiap-SmartCities.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A948039-ABFB-469D-98CA-538ACEA9F292}|Solution Items{4A948039-ABFB-469D-98CA-538ACEA9F292}|solutionrelative:CollectionPostman\\Fiap-SmartCities.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fiap-SmartCities.postman_collection.json",
+              "DocumentMoniker": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapColaGustavo\\FiapSmartCity\\CollectionPostman\\Fiap-SmartCities.postman_collection.json",
+              "RelativeDocumentMoniker": "CollectionPostman\\Fiap-SmartCities.postman_collection.json",
+              "ToolTip": "D:\\Projects\\Pessoais\\Gustavo-Fiap\\FiapColaGustavo\\FiapSmartCity\\CollectionPostman\\Fiap-SmartCities.postman_collection.json",
+              "RelativeToolTip": "CollectionPostman\\Fiap-SmartCities.postman_collection.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T08:41:26.733Z",
+              "EditorCaption": ""
             }
           ]
         }

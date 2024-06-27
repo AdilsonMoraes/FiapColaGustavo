@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "fce94c93-2cee-40b2-9dc5-10df1a5de069",
+		"name": "Fiap-SmartCities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26171135"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"Administrador\",\r\n  \"password\": \"Adm@2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}Authentication/Login",
+							"host": [
+								"{{UrlBase}}Authentication"
+							],
+							"path": [
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ZmIyNDIzMS0xZWM5LTRiNmYtYTY5MS1iMjE0OGVjODY0ZGYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjlkZGRjNGZiLWJhY2YtNDY3MS04OWM5LWRkYTkxY2Y0NjYxNyIsImV4cCI6MTcxODY0MTM0OSwiaXNzIjoiYXBpSWRlbnRpdHkiLCJhdWQiOiJhcGlJZGVudGl0eSJ9.Znnc1N6NBgDmEWsbn4GtmoU2i77QQeeu1nq_QAWdE70",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"Administrador\",\r\n  \"password\": \"Adm@2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}Authentication/Users",
+							"host": [
+								"{{UrlBase}}Authentication"
+							],
+							"path": [
+								"Users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ZmIyNDIzMS0xZWM5LTRiNmYtYTY5MS1iMjE0OGVjODY0ZGYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjlkZGRjNGZiLWJhY2YtNDY3MS04OWM5LWRkYTkxY2Y0NjYxNyIsImV4cCI6MTcxODY0MTM0OSwiaXNzIjoiYXBpSWRlbnRpdHkiLCJhdWQiOiJhcGlJZGVudGl0eSJ9.Znnc1N6NBgDmEWsbn4GtmoU2i77QQeeu1nq_QAWdE70",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"Administrador\",\r\n  \"password\": \"Adm@2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}Authentication/DeleteUser/teste",
+							"host": [
+								"{{UrlBase}}Authentication"
+							],
+							"path": [
+								"DeleteUser",
+								"teste"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TrafficManagement",
+			"item": [
+				{
+					"name": "CreateAccidents",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMWIxMThlYS04NWU1LTRiOTQtYjEwYS1jODA1NDNhMmYwNjciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjU1ZmZmNjExLTdjNTgtNDQ4My04MzBhLTg4M2NkYmZiOThmZCIsImV4cCI6MTcxOTQzMDkxNSwiaXNzIjoiYXBpSWRlbnRpdHkiLCJhdWQiOiJhcGlJZGVudGl0eSJ9.4MiyuIajK10w7IckResfBhwi1OGug009RkitoFjMpOs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"cars\": {\r\n    \"brand\": \"GM\",\r\n    \"model\": \"Vectra\",\r\n    \"year\": \"2010\"\r\n  },\r\n  \"address\": {\r\n    \"description\": \"Rua do inicio, 100\",\r\n    \"complement\": \"casa 10\",\r\n    \"zipCode\": 4578998\r\n  },\r\n  \"gravity\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}TrafficManagement/CreateAccidents",
+							"host": [
+								"{{UrlBase}}TrafficManagement"
+							],
+							"path": [
+								"CreateAccidents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAccidents",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMWIxMThlYS04NWU1LTRiOTQtYjEwYS1jODA1NDNhMmYwNjciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjU1ZmZmNjExLTdjNTgtNDQ4My04MzBhLTg4M2NkYmZiOThmZCIsImV4cCI6MTcxOTQzMDkxNSwiaXNzIjoiYXBpSWRlbnRpdHkiLCJhdWQiOiJhcGlJZGVudGl0eSJ9.4MiyuIajK10w7IckResfBhwi1OGug009RkitoFjMpOs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{UrlBase}}TrafficManagement/GetAccidents",
+							"host": [
+								"{{UrlBase}}TrafficManagement"
+							],
+							"path": [
+								"GetAccidents"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "UrlBase",
+			"value": "https://localhost:44367/api/",
+			"type": "string"
+		}
+	]
+}

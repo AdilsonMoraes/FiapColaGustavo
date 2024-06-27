@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CollectionPostman", "CollectionPostman", "{69893938-FF7A-49A7-9C87-ED12302EE5A8}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json = ..\..\..\..\Users\AdilsonGalp\Desktop\Fiap-SmartCities.postman_collection.json
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityAPI", "FiapSmartCityAPI\FiapSmartCityAPI.csproj", "{0D5BC0E1-50D3-42B0-8910-3A5F456FDB33}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityDomain", "FiapSmartCityDomain\FiapSmartCityDomain.csproj", "{49020F69-E72B-46F4-8C65-439F493E494D}"
@@ -19,6 +14,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityInfrastructure", "FiapSmartCityInfrastructure\FiapSmartCityInfrastructure.csproj", "{D91E866E-544A-4662-AD76-E746EAE2E6E9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapSmartCityTest", "FiapSmartCityTest\FiapSmartCityTest.csproj", "{458E2109-9972-4C79-B6AA-F21F5D60252D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A948039-ABFB-469D-98CA-538ACEA9F292}"
+	ProjectSection(SolutionItems) = preProject
+		CollectionPostman\Fiap-SmartCities.postman_collection.json = CollectionPostman\Fiap-SmartCities.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
